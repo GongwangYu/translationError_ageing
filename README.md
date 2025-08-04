@@ -1,9 +1,9 @@
 # translationError_ageing
-##Prerequisites:
-*Python 2 
-*MaxQuant v2.7.0.0
-*Cutadapt v.1.8
-*bowtie 1.3.1
+## Prerequisites:
+* Python 2 
+* MaxQuant v2.7.0.0
+* Cutadapt v.1.8
+* bowtie 1.3.1
 
 ##Analysis pipeline
 ###1 Detecting misincorporation rate of amino acids
