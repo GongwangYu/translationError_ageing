@@ -1,5 +1,6 @@
 # translationError_ageing
 ##Prerequisites: 
+
 *Python 2 
 *MaxQuant v2.7.0.0
 *Cutadapt v.1.8
@@ -7,6 +8,7 @@
 
 ##Analysis pipeline
 ###1 Detecting misincorporation rate of amino acids
+
 1.1 Raw mass spectrometry (MS) data processing
 *Input:
   *Raw MS data downloaded from the Proteomics Identification Database, with the accession numbers of all used samples listed in Table_S1
