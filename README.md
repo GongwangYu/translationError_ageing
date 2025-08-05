@@ -50,7 +50,7 @@ bash sequence_alignment.sh
 2.2 readthrough efficiency calculation
 
 * Input
-  * Rbam files in align folder 
+  * bam files in align folder 
 ```{shell}
 readthrough_efficiency_calculation.R
 ```
