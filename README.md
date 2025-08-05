@@ -9,7 +9,7 @@
 ### 1 Detecting misincorporation rate of amino acids
 1.1 Raw mass spectrometry (MS) data processing
 * Input:
-  * Raw MS data downloaded from the Proteomics Identification Database, with the accession numbers of all used samples listed in Table_S1
+  * Raw MS data downloaded from the Proteomics Identification Database, with the accession numbers of all used samples listed in TableS1
   
 ```{shell}
 # Taking yeast MS data as an example, use MaxQuant to generate mqpar.xml
@@ -22,7 +22,6 @@ dotnet /path/MaxQuantCmd.exe mqpar.xml
 * Input 
   * dependentPeptides.txt
 ```{shell}
-# Taking human MS data as an example, use MaxQuant to generate mqpar_liunx.xml
 python2 detect_quant.py
 ```
 * Output
@@ -35,11 +34,10 @@ aa_subRate_calculation.R
 
 ```
 
-
 ### 2.Detecting translational readthrough
 2.1 Sequence alignment
 * Input
-  * Raw Ribo-Seq data were downloaded from GEO, with the accession numbers listed in Table S2.
+  * Raw Ribo-Seq data were downloaded from GEO, with the accession numbers listed in TableS2.
 ```{shell}
 bash sequence_alignment.sh
 
